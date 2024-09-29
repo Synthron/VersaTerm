@@ -9689,7 +9689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias"
 			(at 111.76 130.81 0)
 			(effects
 				(font
@@ -10057,7 +10057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 156.845 171.45 0)
 			(effects
 				(font
@@ -13100,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_Mallory_AST1240MLQ"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled"
 			(at 45.72 92.71 0)
 			(effects
 				(font

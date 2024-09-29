@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -57,14 +57,13 @@
       29,
       30,
       32,
-      33,
       34,
       35,
       36,
       39,
       40
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "ffcffff_fffffff9",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "VeraTerm.kicad_prl",
+    "filename": "VersaTerm.kicad_prl",
     "version": 3
   },
   "project": {
