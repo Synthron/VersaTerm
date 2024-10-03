@@ -5804,6 +5804,12 @@
 		(uuid "31886264-9a48-4bbb-9786-acccb8fc6086")
 	)
 	(junction
+		(at 135.89 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41330eb0-048e-4e7f-824d-3371cb7c27ee")
+	)
+	(junction
 		(at 31.75 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5942,6 +5948,12 @@
 		(uuid "e29c0e3e-3d07-4890-ab36-48cdb3658328")
 	)
 	(junction
+		(at 58.42 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e309c053-d257-4220-a36a-5c031b2e4d10")
+	)
+	(junction
 		(at 201.93 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5974,10 +5986,6 @@
 	(no_connect
 		(at 31.75 91.44)
 		(uuid "020721f4-244c-4109-a6cf-9562ed9094a6")
-	)
-	(no_connect
-		(at 41.91 22.86)
-		(uuid "13ec45ff-c8c3-4170-8056-18db0ff6ca7a")
 	)
 	(no_connect
 		(at 63.5 43.18)
@@ -6068,10 +6076,6 @@
 		(uuid "c2f5d90b-a0c3-4299-84c6-c7251c4a1805")
 	)
 	(no_connect
-		(at 41.91 25.4)
-		(uuid "d73b652d-6323-4266-aae3-b1cb7cc85b69")
-	)
-	(no_connect
 		(at 262.89 143.51)
 		(uuid "dc4b5e13-849d-45c9-801b-53e9e52a9986")
 	)
@@ -6101,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 139.7) (xy 128.27 139.7)
+			(xy 109.855 139.7) (xy 121.285 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6211,7 +6215,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 139.7 45.72)
+			(xy 132.08 45.72) (xy 135.89 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6221,7 +6225,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 149.86) (xy 128.27 149.86)
+			(xy 109.855 149.86) (xy 121.285 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6258,6 +6262,16 @@
 			(type default)
 		)
 		(uuid "154e887b-e9b7-4f07-ab3b-f7f287464002")
+	)
+	(wire
+		(pts
+			(xy 60.325 22.86) (xy 58.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b81d31-7642-46f1-840b-8a8526fab30c")
 	)
 	(wire
 		(pts
@@ -6371,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 152.4) (xy 147.32 152.4)
+			(xy 128.905 152.4) (xy 147.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6428,6 +6442,16 @@
 			(type default)
 		)
 		(uuid "2a3ee85c-9b6e-42f8-a08d-aac23d237c60")
+	)
+	(wire
+		(pts
+			(xy 53.975 25.4) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c43e102-fcd7-47ad-9d20-3ff49f2e0007")
 	)
 	(wire
 		(pts
@@ -6561,7 +6585,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 147.32 139.7)
+			(xy 128.905 139.7) (xy 147.32 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6591,7 +6615,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 147.32) (xy 128.27 147.32)
+			(xy 109.855 147.32) (xy 121.285 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6621,7 +6645,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 154.94) (xy 128.27 154.94)
+			(xy 109.855 154.94) (xy 121.285 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6731,7 +6755,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 137.16) (xy 128.27 137.16)
+			(xy 109.855 137.16) (xy 121.285 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6751,7 +6775,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 149.86) (xy 147.32 149.86)
+			(xy 128.905 149.86) (xy 147.32 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7151,7 +7175,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 154.94) (xy 147.32 154.94)
+			(xy 128.905 154.94) (xy 147.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7161,7 +7185,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 144.78) (xy 147.32 144.78)
+			(xy 128.905 144.78) (xy 147.32 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7391,6 +7415,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 22.86) (xy 46.355 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0b5dc2-3d8f-4af3-a948-aaacbabe4651")
+	)
+	(wire
+		(pts
 			(xy 127 87.63) (xy 134.62 87.63)
 		)
 		(stroke
@@ -7418,6 +7452,16 @@
 			(type default)
 		)
 		(uuid "8fd091d0-328e-4034-b180-c59d4459aef5")
+	)
+	(wire
+		(pts
+			(xy 135.89 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fecf7fc-6945-4277-9687-8cbefa7cd887")
 	)
 	(wire
 		(pts
@@ -7461,7 +7505,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 128.27 142.24)
+			(xy 109.855 142.24) (xy 121.285 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7601,7 +7645,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 152.4) (xy 128.27 152.4)
+			(xy 109.855 152.4) (xy 121.285 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7698,6 +7742,16 @@
 			(type default)
 		)
 		(uuid "b09b7a34-0d54-4b41-8d06-a9ca604f1f09")
+	)
+	(wire
+		(pts
+			(xy 41.91 25.4) (xy 46.355 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b4d6b2-a18c-4713-8daf-5a51e23b3aa2")
 	)
 	(wire
 		(pts
@@ -7941,7 +7995,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 147.32) (xy 147.32 147.32)
+			(xy 128.905 147.32) (xy 147.32 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8061,7 +8115,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 144.78) (xy 128.27 144.78)
+			(xy 109.855 144.78) (xy 121.285 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8091,7 +8145,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 142.24) (xy 147.32 142.24)
+			(xy 128.905 142.24) (xy 147.32 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8281,6 +8335,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 22.86) (xy 53.975 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ba1bb7-78a9-4231-bd04-1e575ff20826")
+	)
+	(wire
+		(pts
 			(xy 214.63 69.85) (xy 215.9 69.85)
 		)
 		(stroke
@@ -8461,7 +8525,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 118.11 45.72)
+			(xy 58.42 25.4) (xy 58.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6a2827-068a-4630-a76e-fa99426a62ef")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8661,7 +8735,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 137.16) (xy 147.32 137.16)
+			(xy 128.905 137.16) (xy 147.32 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8800,7 +8874,7 @@
 		(uuid "0651b4ad-4a5b-44d4-aec2-7a160a1609e6")
 	)
 	(label "_CK-"
-		(at 138.43 154.94 0)
+		(at 141.605 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8890,7 +8964,7 @@
 		(uuid "2162142d-354e-432e-a7af-4e893aa85616")
 	)
 	(label "D2-"
-		(at 116.84 139.7 0)
+		(at 109.855 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8945,7 +9019,7 @@
 		(uuid "2ef82764-1512-49ce-b61c-44c4467c214c")
 	)
 	(label "_D1-"
-		(at 138.43 144.78 0)
+		(at 141.605 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9001,7 +9075,7 @@
 		(uuid "3ce9b42d-dc22-4796-9dcf-c7a2c17459b2")
 	)
 	(label "_D1+"
-		(at 138.43 142.24 0)
+		(at 141.605 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9035,7 +9109,7 @@
 		(uuid "482143b6-d04e-4d59-bd73-656d75cd82c4")
 	)
 	(label "D0-"
-		(at 116.84 149.86 0)
+		(at 109.855 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9135,7 +9209,7 @@
 		(uuid "692828c8-a31b-4a1e-8de4-b96602c6735a")
 	)
 	(label "D1+"
-		(at 116.84 142.24 0)
+		(at 109.855 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9169,7 +9243,7 @@
 		(uuid "6d0ff929-ca75-41ba-8975-dc02f5e0e30b")
 	)
 	(label "_D2+"
-		(at 138.43 137.16 0)
+		(at 141.605 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9180,7 +9254,7 @@
 		(uuid "6d55af5d-0818-4f8d-91ee-e0426b1b92a6")
 	)
 	(label "CK+"
-		(at 116.84 152.4 0)
+		(at 109.855 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9191,7 +9265,7 @@
 		(uuid "74cf3fca-75e2-4db7-bd63-a1cdc05c8763")
 	)
 	(label "D1-"
-		(at 116.84 144.78 0)
+		(at 109.855 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9213,7 +9287,7 @@
 		(uuid "79a21795-1e1e-4d33-9b00-555eaef99476")
 	)
 	(label "_CK+"
-		(at 138.43 152.4 0)
+		(at 141.605 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9246,7 +9320,7 @@
 		(uuid "896dd2b1-f281-4b1f-8a04-0d4396a58ae4")
 	)
 	(label "_D0-"
-		(at 138.43 149.86 0)
+		(at 141.605 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9324,7 +9398,7 @@
 		(uuid "9f3d800d-8fc9-40f4-ae74-0e11e52007cd")
 	)
 	(label "D0+"
-		(at 116.84 147.32 0)
+		(at 109.855 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9380,7 +9454,7 @@
 		(uuid "ada6c65a-fca2-4055-bf4a-5eea12de975b")
 	)
 	(label "_D0+"
-		(at 138.43 147.32 0)
+		(at 141.605 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9424,7 +9498,7 @@
 		(uuid "b8484149-bf05-460d-b53e-89df393388f3")
 	)
 	(label "CK-"
-		(at 116.84 154.94 0)
+		(at 109.855 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9435,7 +9509,7 @@
 		(uuid "b91c9574-ccd3-471a-939a-b0bdd586a536")
 	)
 	(label "D2+"
-		(at 116.84 137.16 0)
+		(at 109.855 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9536,7 +9610,7 @@
 		(uuid "ecc10b37-33c4-4c66-a9cc-79abfc718fed")
 	)
 	(label "_D2-"
-		(at 138.43 139.7 0)
+		(at 141.605 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10915,7 +10989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 149.86 270)
+		(at 125.095 149.86 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10924,7 +10998,7 @@
 		(dnp no)
 		(uuid "27b12e10-9cf3-46f7-8c8f-e8ba592ce82e")
 		(property "Reference" "R126"
-			(at 123.698 148.59 90)
+			(at 116.713 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +11007,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 149.86 90)
+			(at 123.317 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,7 +11016,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 151.638 90)
+			(at 125.095 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +11025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 149.86 0)
+			(at 125.095 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +11034,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 149.86 0)
+			(at 125.095 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,7 +11129,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 142.24 270)
+		(at 125.095 142.24 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11064,7 +11138,7 @@
 		(dnp no)
 		(uuid "28d5f190-bf97-4b7c-9c2d-eca1d0235b74")
 		(property "Reference" "R123"
-			(at 123.698 140.97 90)
+			(at 116.713 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11073,7 +11147,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 142.24 90)
+			(at 123.317 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11082,7 +11156,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 144.018 90)
+			(at 125.095 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,7 +11165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 142.24 0)
+			(at 125.095 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11100,7 +11174,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 142.24 0)
+			(at 125.095 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,7 +11499,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 144.78 270)
+		(at 125.095 144.78 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11434,7 +11508,7 @@
 		(dnp no)
 		(uuid "34b7a6d3-3139-453c-8f23-575ff7472b4d")
 		(property "Reference" "R124"
-			(at 123.698 143.51 90)
+			(at 116.713 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11517,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 144.78 90)
+			(at 123.317 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11452,7 +11526,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 146.558 90)
+			(at 125.095 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11535,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 144.78 0)
+			(at 125.095 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11470,7 +11544,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 144.78 0)
+			(at 125.095 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,6 +12341,72 @@
 			(project "VeraTerm"
 				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
 					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f45134f-70c2-4e2c-852a-b215fca6c675")
+		(property "Reference" "#PWR01"
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 57.4731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c4f5892-f5a9-403b-b309-80357c59dda4")
+		)
+		(instances
+			(project "VersaTerm"
+				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13092,7 +13232,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 137.16 270)
+		(at 125.095 137.16 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13101,7 +13241,7 @@
 		(dnp no)
 		(uuid "6fd1aabb-0571-4edf-b2ee-c895ed44a0f1")
 		(property "Reference" "R121"
-			(at 123.698 135.89 90)
+			(at 116.713 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,7 +13250,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 137.16 90)
+			(at 123.317 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +13259,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 138.938 90)
+			(at 125.095 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 137.16 0)
+			(at 125.095 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +13277,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 137.16 0)
+			(at 125.095 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13232,7 +13372,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 139.7 270)
+		(at 125.095 139.7 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13241,7 +13381,7 @@
 		(dnp no)
 		(uuid "73814236-391c-4048-85ec-75c4d8b35a2a")
 		(property "Reference" "R122"
-			(at 123.698 138.43 90)
+			(at 116.713 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,7 +13390,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 139.7 90)
+			(at 123.317 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13259,7 +13399,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 141.478 90)
+			(at 125.095 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13268,7 +13408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 139.7 0)
+			(at 125.095 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13277,7 +13417,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 139.7 0)
+			(at 125.095 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13707,7 +13847,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 45.72 90)
+		(at 128.27 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13715,7 +13855,7 @@
 		(dnp no)
 		(uuid "898e965c-8e32-40f8-a862-a59390694c5e")
 		(property "Reference" "R103"
-			(at 139.192 44.45 90)
+			(at 130.81 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13864,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 133.858 45.72 90)
+			(at 130.048 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,7 +13873,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 47.498 90)
+			(at 128.27 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13742,7 +13882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 45.72 0)
+			(at 128.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13751,7 +13891,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 45.72 0)
+			(at 128.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,6 +13986,75 @@
 			(project "VersaTerm"
 				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
 					(reference "J102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.165 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b3f4a11-cdb8-4531-8151-4fae7842d7fe")
+		(property "Reference" "R3"
+			(at 46.99 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 51.943 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 50.165 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.165 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.165 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "364e954a-7565-47ff-8451-5ccda3ce1598")
+		)
+		(pin "2"
+			(uuid "57abcbd8-f344-4e07-a726-240a828afc51")
+		)
+		(instances
+			(project "VersaTerm"
+				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15113,7 +15322,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 147.32 270)
+		(at 125.095 147.32 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15122,7 +15331,7 @@
 		(dnp no)
 		(uuid "b934546d-5592-44a3-8f35-3b788c5922fe")
 		(property "Reference" "R125"
-			(at 123.698 146.05 90)
+			(at 116.713 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,7 +15340,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 147.32 90)
+			(at 123.317 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +15349,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 149.098 90)
+			(at 125.095 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15149,7 +15358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 147.32 0)
+			(at 125.095 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +15367,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 147.32 0)
+			(at 125.095 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,6 +15874,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 135.89 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbacb42c-d32d-4f87-b844-b72acaf0d356")
+		(property "Reference" "R1"
+			(at 133.985 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 135.89 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 137.668 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8789dff0-0e71-47ca-96f2-d73b50c0055f")
+		)
+		(pin "2"
+			(uuid "bed6f7a7-7a60-4198-b5f4-d3eb80091fd9")
+		)
+		(instances
+			(project "VersaTerm"
+				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 193.04 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15870,7 +16148,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 152.4 270)
+		(at 125.095 152.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15879,7 +16157,7 @@
 		(dnp no)
 		(uuid "db53139d-41ea-4789-ad09-cb3f37e60c83")
 		(property "Reference" "R127"
-			(at 123.698 151.13 90)
+			(at 116.713 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15888,7 +16166,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 152.4 90)
+			(at 123.317 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15897,7 +16175,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 154.178 90)
+			(at 125.095 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15906,7 +16184,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 152.4 0)
+			(at 125.095 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15915,7 +16193,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 152.4 0)
+			(at 125.095 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +16304,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 154.94 270)
+		(at 125.095 154.94 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16035,7 +16313,7 @@
 		(dnp no)
 		(uuid "de4a8a9e-1286-46a1-a851-e47e1ef9b3aa")
 		(property "Reference" "R128"
-			(at 123.698 153.67 90)
+			(at 116.713 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +16322,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 130.302 154.94 90)
+			(at 123.317 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16331,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 156.718 90)
+			(at 125.095 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +16340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 154.94 0)
+			(at 125.095 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16349,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 154.94 0)
+			(at 125.095 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16699,6 +16977,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.325 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5e6ba48-4b76-47c9-86b4-c94f5066a1c2")
+		(property "Reference" "#PWR02"
+			(at 66.675 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.325 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.325 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.325 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17a588ef-ba6d-440f-9ea9-0da101ef1c0e")
+		)
+		(instances
+			(project "VersaTerm"
+				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 123.19 95.25 90)
 		(unit 1)
@@ -16828,6 +17173,75 @@
 			(project "VersaTerm"
 				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.165 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9411bf9-d57a-424f-bcd7-d6afde0bd9cd")
+		(property "Reference" "R2"
+			(at 46.99 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 51.943 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 50.165 24.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.165 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.165 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bccd900-72c1-49ab-91ba-ed0f9b5cc6e1")
+		)
+		(pin "2"
+			(uuid "89c98b42-6a3d-446b-8ed7-e48c6c7e4416")
+		)
+		(instances
+			(project "VersaTerm"
+				(path "/9ca26fe3-62b1-4ea6-a49d-56528647adc7"
+					(reference "R2")
 					(unit 1)
 				)
 			)
