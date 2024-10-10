@@ -4322,12 +4322,6 @@
 		(uuid "30f06c5f-2b96-41bd-afed-65f37149de4f")
 	)
 	(junction
-		(at 63.5 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4058fd59-d02f-496e-8d11-255fb487a0e2")
-	)
-	(junction
 		(at 68.58 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4356,12 +4350,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d1ebf25-320a-4713-94c0-fed36bc79b92")
-	)
-	(junction
-		(at 63.5 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e7c85a3-de18-4e8f-8b22-894fd99385c2")
 	)
 	(junction
 		(at 116.84 81.28)
@@ -4699,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 102.87) (xy 66.04 102.87)
+			(xy 60.96 102.87) (xy 66.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4999,16 +4987,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 106.68) (xy 63.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4fbb57-a15b-4488-8bea-15800166471d")
-	)
-	(wire
-		(pts
 			(xy 148.59 102.87) (xy 137.16 102.87)
 		)
 		(stroke
@@ -5229,7 +5207,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 63.5 100.33)
+			(xy 60.96 100.33) (xy 66.04 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5336,16 +5314,6 @@
 			(type default)
 		)
 		(uuid "712f5f98-773a-4598-92a7-f1e95bf9cb54")
-	)
-	(wire
-		(pts
-			(xy 63.5 106.68) (xy 63.5 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71891013-99d8-4b01-b252-991b8d68cc7b")
 	)
 	(wire
 		(pts
@@ -5576,16 +5544,6 @@
 			(type default)
 		)
 		(uuid "8e33dc74-6950-4672-a2ee-8fd2251e38c9")
-	)
-	(wire
-		(pts
-			(xy 60.96 102.87) (xy 63.5 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea80fcb-969e-4392-a6f9-00e3654a3cc1")
 	)
 	(wire
 		(pts
@@ -5839,16 +5797,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 100.33) (xy 66.04 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1474251-1501-46ff-a41e-f9bc4583f288")
-	)
-	(wire
-		(pts
 			(xy 38.1 99.06) (xy 38.1 92.71)
 		)
 		(stroke
@@ -6006,16 +5954,6 @@
 			(type default)
 		)
 		(uuid "b645e715-976f-4136-b40d-635a13c4e494")
-	)
-	(wire
-		(pts
-			(xy 63.5 96.52) (xy 63.5 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f502a6-d26a-4946-a2b0-1f5e1e579eae")
 	)
 	(wire
 		(pts
@@ -6466,16 +6404,6 @@
 			(type default)
 		)
 		(uuid "ea894986-05f5-40a5-bfb7-41e61bead6a8")
-	)
-	(wire
-		(pts
-			(xy 62.23 96.52) (xy 63.5 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae0ef82-4fc2-4f4d-8c43-7e0e85e059d1")
 	)
 	(wire
 		(pts
@@ -7607,18 +7535,6 @@
 		)
 		(uuid "a0b05f2c-141b-46f2-b97d-7e3450d32ebe")
 	)
-	(hierarchical_label "USB+"
-		(shape input)
-		(at 62.23 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4879b3c-12bf-4ca8-b30f-493b0772f70b")
-	)
 	(hierarchical_label "GPIO3"
 		(shape input)
 		(at 208.28 34.29 180)
@@ -7642,18 +7558,6 @@
 			(justify right)
 		)
 		(uuid "aa2704b2-3e6c-4c5c-a7b7-fd058fc6525a")
-	)
-	(hierarchical_label "USB-"
-		(shape input)
-		(at 62.23 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae410a61-4510-4380-92ea-4e907bd3ed05")
 	)
 	(hierarchical_label "GPIO6"
 		(shape input)
@@ -13287,7 +13191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 68.58 143.51 0)
 			(effects
 				(font
